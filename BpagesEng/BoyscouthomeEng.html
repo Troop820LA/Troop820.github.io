@@ -6,22 +6,55 @@
     <title>Troop 820 Boy Scout Home</title>
 	<style type="text/css">
 
+		/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #120f88;
+  color: white;
+}
+
 	h1{text-size: 60px;
 	   text-align: center;
 	   color: blue;
 	   border-bottom: 2px solid blue;}
 	h2{text-size:60px;
-	   color:rgb(68, 61, 114);
+	   color: rgb(68, 61, 114);
 	   }
-	ul1{text-align: right;
+	ul1{
 	   text-size:20px;
-	   color:rgb(68, 61, 114);
-	   display: block;
-		margin-left: auto;
-		margin-right: 10px;} 
+	   
+	   display: block;}
+	   ul2{
+	   text-size:20px;
+	   
+	   display: block;}
 	h3{text-size: 60px;
-	   color: blue;
-	   border-bottom: 2px solid blue;}
+	   color: rgb(68, 61, 114);
+	   text-align: left;}
+	   h4{text-size: 60px;
+	   color: rgb(68, 61, 114);
+	   text-align: left;}
 	.center {
   		display: block;
   		margin-left: auto;
@@ -41,20 +74,34 @@
 
 	<h1>TROOP 820</h1>
 
-		<p><button onclick="window.location.href=`./lastmeeting.html`;">Last Meeting</button> 
-        <button onclick="window.location.href=`./previousmeetings.html`;">Previous Meetings</button>
-        <button onclick="window.location.href=`../index.html`;">Home</button></p>	
+	<div class="topnav">
+		<a class="active" href="./BoyscouthomeEng.html">Home</a>
+		<a href="../index.html">Troop Selection</a>
+		<a href="./lastmeeting.html">Last Meeting</a>
+		<a href="./previousmeetings.html">Previous Meering</a>
+		<a href="./contacts.html">Contacts</a>
+	  </div>
 
 		<!-- <button onclick="window.location.href=`./pages/ScoutRanks.html`">Scout Ranks</button>	</p> -->
-		<img src="./BG/BSA_Symbol.png" alt="Boy Scouts of America Symbol" class="center">
+		<img src="../BG/BSA_Symbol.png" alt="Boy Scouts of America Symbol" class="center">
 		
-		<h3>Weekly Quote:</h3>
+		<h2>Weekly Quote:</h2>
 		<iframe src="https://docs.google.com/document/d/e/2PACX-1vTd179ytkM4luUpaV6XYr2hZ_s-hh_4NiUaSRULD0_8YFQ0CAhXuTlT-Nj6hO_nnVfEhHIDn7mJT1O6/pub?embedded=true" width="100%" height="300px" class="center" seamless></iframe>
 
-		<div class="fix"><h2>Contact:</h2></div>
+			<h3>Things to work on for next meeting:</h3>
 			<ul1>
-				<li>Senior Patrol Leader: Sammy:  (985)860-9425</li>
-				<li>Patrol Leader: Isaac Western: (985)291-3010</li>
+				<li>This is stuff we went over 1/24/2021.</li>
+				<li>Work on being able to recite the Scout Oath, Law, Motto, Slogan, Outdoor code, and the Pledge of Allegiance, and be able to explain their meanings in your own words. (Scout 1a., 1e., 1f.)</li>
+				<li>Learn what scout spirit is. Be able to describe ways you have shown scout spirit by practicing the Scout Oath, Law, Motto, and Slogan. (Scout 1b.)</li>
+				<li>Be able to preform the Boyscout Sign, salutem and handshake. Determine when each should be used. (Scout 1c.)</li>
+				<li>Learn the parts of the First Class Badge, what each part represents, and the significance of the badge. (Scout 1d.)</li>
 			</ul1>
+
+			<h4>Upcoming Events:</h4>
+			<ul2>
+				<li>01/29/2021: Friday: Campout at a park on Galliano. <pre>
+		Meeting Place: Undetermined
+		Meeting Time:  Undetermined </pre></li>
+			</ul2>
 
 </html>
